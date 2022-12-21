@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch_empty" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Interactive Activities that Don't Work?</title>
+
+   <p>
+    These checkpoints don't work.  But the same code produces working ones in an exercises division below.
+   </p>
+
+    <exercise>
+      <title>True/False Question</title>
+      <statement correct='yes'>
+        <p>
+          A True/false question
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          Feedback
+        </p>
+      </feedback>
+    </exercise>
+
+    <exercise>
+      <title>Matching Problem</title>
+      <statement>
+        <p>
+          A multiple choice question
+        </p>
+      </statement>
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              right answer 1
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              answer specific feedback
+            </p>
+          </feedback>
+        </choice>
+        <choice correct="yes">
+          <statement>
+            <p>
+              right answer 1
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              answer specific feedback
+            </p>
+          </feedback>
+        </choice>
+        <choice>
+          <statement>
+            <p>
+              wrong answer 1
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              answer specific feedback
+            </p>
+          </feedback>
+        </choice>
+        <choice>
+          <statement>
+            <p>
+              wrong answer 2
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              answer specific feedback
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+
+    <exercise>
+      <title>Parsons Problem</title>
+      <statement>
+        <p>
+          Rearrange the blocks in alphebetical order
+        </p>
+      </statement>
+      <blocks>
+        <!-- Write problems in correct order. -->
+        <!-- Add correct="no" to distractors -->
+        <!-- @order says how to print the STATIC VERSION -->
+        <block order="5">
+          <p>
+            A
+          </p>
+        </block>
+        <block order="2">
+          <p>
+            B
+          </p>
+        </block>
+        <block order="1">
+          <p>
+            C
+          </p>
+        </block>
+        <block order="4">
+          <p>
+            D
+          </p>
+        </block>
+        <block order="3" correct="no">
+          <p>
+            <m>103</m>
+          </p>
+        </block>
+      </blocks>
+    </exercise>
+
+    <exercise>
+      <title>Matching Problem</title>
+      <statement>
+        <p>
+          Match the letters with their order in the alphabet
+        </p>
+      </statement>
+      <matches>
+        <match>
+          <premise>
+            A
+          </premise>
+          <response>
+            1
+          </response>
+        </match>
+        <match>
+          <premise>
+            B
+          </premise>
+          <response>
+            2
+          </response>
+        </match>
+        <match>
+          <premise>
+            C
+          </premise>
+          <response>
+            3
+          </response>
+        </match>
+      </matches>
+    </exercise>
+
+<exercises xml:id="exercises-Working">
+    <exercise>
+      <title>True/False Question</title>
+      <statement correct='yes'>
+        <p>
+          A True/false question
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          Feedback
+        </p>
+      </feedback>
+    </exercise>
+
+    <exercise>
+      <title>Matching Problem</title>
+      <statement>
+        <p>
+          A multiple choice question
+        </p>
+      </statement>
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement>
+            <p>
+              right answer 1
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              answer specific feedback
+            </p>
+          </feedback>
+        </choice>
+        <choice correct="yes">
+          <statement>
+            <p>
+              right answer 1
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              answer specific feedback
+            </p>
+          </feedback>
+        </choice>
+        <choice>
+          <statement>
+            <p>
+              wrong answer 1
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              answer specific feedback
+            </p>
+          </feedback>
+        </choice>
+        <choice>
+          <statement>
+            <p>
+              wrong answer 2
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              answer specific feedback
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+
+    <exercise>
+      <title>Parsons Problem</title>
+      <statement>
+        <p>
+          Rearrange the blocks in alphebetical order
+        </p>
+      </statement>
+      <blocks>
+        <!-- Write problems in correct order. -->
+        <!-- Add correct="no" to distractors -->
+        <!-- @order says how to print the STATIC VERSION -->
+        <block order="5">
+          <p>
+            A
+          </p>
+        </block>
+        <block order="2">
+          <p>
+            B
+          </p>
+        </block>
+        <block order="1">
+          <p>
+            C
+          </p>
+        </block>
+        <block order="4">
+          <p>
+            D
+          </p>
+        </block>
+        <block order="3" correct="no">
+          <p>
+            <m>103</m>
+          </p>
+        </block>
+      </blocks>
+    </exercise>
+
+    <exercise>
+      <title>Matching Problem</title>
+      <statement>
+        <p>
+          Match the letters with their order in the alphabet
+        </p>
+      </statement>
+      <matches>
+        <match>
+          <premise>
+            A
+          </premise>
+          <response>
+            1
+          </response>
+        </match>
+        <match>
+          <premise>
+            B
+          </premise>
+          <response>
+            2
+          </response>
+        </match>
+        <match>
+          <premise>
+            C
+          </premise>
+          <response>
+            3
+          </response>
+        </match>
+      </matches>
+    </exercise>
+  </exercises>
+
+</chapter>
